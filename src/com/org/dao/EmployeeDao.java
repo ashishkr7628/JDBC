@@ -1,15 +1,15 @@
 package com.org.dao;
 
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-<<<<<<< HEAD
-=======
+
 import java.util.ArrayList;
 import java.util.List;
->>>>>>> f46a9d1 (second commit)
+
 
 import com.org.dto.Employee;
 
@@ -36,10 +36,9 @@ public class EmployeeDao {
 			    
 			    stmt.close();
 			    con.close();
-<<<<<<< HEAD
-=======
+
 				System.out.println("Data Inserted");
->>>>>>> f46a9d1 (second commit)
+
 			    
 				
 				
@@ -49,11 +48,11 @@ public class EmployeeDao {
 			}
 	}
 			
-<<<<<<< HEAD
-		public Employee fetchEmployeeById(int id) {
-=======
+
+
+
 		public Employee fetchEmployeeById (int id) {
->>>>>>> f46a9d1 (second commit)
+
 			Employee emp= new Employee();
 			try {
 				Class.forName("com.mysql.cj.jdbc.Driver");
@@ -79,11 +78,9 @@ public class EmployeeDao {
 			    stmt.close();
 			    con.close();
 			    
-<<<<<<< HEAD
+
 			    return emp;
-=======
-			    
->>>>>>> f46a9d1 (second commit)
+
 			   
 				
 				
@@ -91,8 +88,7 @@ public class EmployeeDao {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-<<<<<<< HEAD
-=======
+
 			return emp;
 			
 			
@@ -186,18 +182,11 @@ public class EmployeeDao {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
-			
-			
-			
->>>>>>> f46a9d1 (second commit)
-			
-			
 		}
-		
-<<<<<<< HEAD
-		
-=======
+			
+			
+			
+
 		public void deleteEmployeeById(int id) {
 			try {
 				Class.forName("com.mysql.cj.jdbc.Driver");
@@ -221,10 +210,7 @@ public class EmployeeDao {
 				e.printStackTrace();
 			}
 			
-		}
->>>>>>> f46a9d1 (second commit)
-		
-		
+		}		
 			
 		
 		
